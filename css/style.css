@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-body {
-  min-height: 100%;
-}
-
 .container {
   position: relative;
   width: 1140px;
@@ -231,7 +227,7 @@ h2.title {
 
 .gifts {
   min-height: 630px;
-  padding: 88px;
+  padding: 86px 0 87px 0;
   background: #EFEFEF;
 }
 .gifts .gift-icon {
@@ -239,10 +235,11 @@ h2.title {
   margin: 0 auto;
 }
 .gifts .gifts-text {
-  margin: 45px 0 88px 0;
+  margin-top: 42px;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 30px;
+  line-height: 43px;
   text-align: center;
   color: #252525;
 }
@@ -267,25 +264,24 @@ h2.title {
 }
 
 .webinar {
-  min-height: 512px;
-  padding-top: 81px;
+  min-height: 515px;
+  padding: 89px 0 64px 0;
 }
-.webinar .webinar-wrapper {
-  text-align: center;
-}
-.webinar .webinar-wrapper .webinar-icon {
-  display: inline-block;
+.webinar .webinar-icon {
+  display: block;
   margin: 0 auto;
 }
-.webinar .webinar-wrapper .webinar-header {
-  margin-top: 36px;
+.webinar .webinar-header {
+  text-align: center;
+  margin-top: 37px;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 30px;
   text-transform: uppercase;
   color: #252525;
 }
-.webinar .webinar-wrapper .webinar-when {
+.webinar .webinar-when {
+  text-align: center;
   margin-top: 30px;
   font-family: "Roboto";
   font-weight: 900;
@@ -293,8 +289,9 @@ h2.title {
   text-transform: uppercase;
   color: #299CBD;
 }
-.webinar .webinar-wrapper .webinar-signup {
-  margin-top: 25px;
+.webinar .webinar-signup {
+  text-align: center;
+  margin-top: 30px;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 23px;
